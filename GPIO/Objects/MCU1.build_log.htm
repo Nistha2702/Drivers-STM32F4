@@ -1,0 +1,337 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Nistha Kumari, Nirma, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\nisco\Desktop\Embedded_C\PROJECTS\New folder\0.DRIVERS\GPIO\MCU1.uvprojx
+Project File Date:  10/20/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+ArmClang: error: no such file or directory: 'main.c'
+ArmClang: error: no input files
+compiling main.c...
+assembling startup_stm32f407xx.s...
+compiling system_stm32f4xx.c...
+gpio_driver.c(29): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOA:
+                                     ^~~~~~~~~~
+gpio_driver.c(29): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(33): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOB:
+                                     ^~~~~~~~~~
+gpio_driver.c(33): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(37): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOC:
+                                     ^~~~~~~~~~
+gpio_driver.c(37): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(41): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOD:
+                                     ^~~~~~~~~~
+gpio_driver.c(41): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(45): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOE:
+                                     ^~~~~~~~~~
+gpio_driver.c(45): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(49): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOF:
+                                     ^~~~~~~~~~
+gpio_driver.c(49): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(53): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOG:
+                                     ^~~~~~~~~~
+gpio_driver.c(53): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(57): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOH:
+                                     ^~~~~~~~~~
+gpio_driver.c(57): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(61): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOI:
+                                     ^~~~~~~~~~
+gpio_driver.c(61): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(71): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOA:
+                                     ^~~~~~~~~~
+gpio_driver.c(71): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(72): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOA_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./gpio_driver.h(102): note: expanded from macro 'GPIOA_PCLK_DA'
+                                #define GPIOA_PCLK_DA                   ( RCC->AHB1ENR &= ~(1<<0) )
+                                                                                       ~~ ^~~~~~~
+gpio_driver.c(75): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOB:
+                                     ^~~~~~~~~~
+gpio_driver.c(75): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(76): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOB_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./gpio_driver.h(103): note: expanded from macro 'GPIOB_PCLK_DA'
+                                #define GPIOB_PCLK_DA                   ( RCC->AHB1ENR &= ~(1<<1) )
+                                                                                       ~~ ^~~~~~~
+gpio_driver.c(79): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOC:
+                                     ^~~~~~~~~~
+gpio_driver.c(79): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(80): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOC_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./gpio_driver.h(104): note: expanded from macro 'GPIOC_PCLK_DA'
+                                #define GPIOC_PCLK_DA                   ( RCC->AHB1ENR &= ~(1<<2) )
+                                                                                       ~~ ^~~~~~~
+gpio_driver.c(83): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOD:
+                                     ^~~~~~~~~~
+gpio_driver.c(83): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(84): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOD_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./gpio_driver.h(105): note: expanded from macro 'GPIOD_PCLK_DA'
+                                #define GPIOD_PCLK_DA                   ( RCC->AHB1ENR &= ~(1<<3) )
+                                                                                       ~~ ^~~~~~~
+gpio_driver.c(87): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOE:
+                                     ^~~~~~~~~~
+gpio_driver.c(87): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(88): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOE_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./gpio_driver.h(106): note: expanded from macro 'GPIOE_PCLK_DA'
+                                #define GPIOE_PCLK_DA                   ( RCC->AHB1ENR &= ~(1<<4) )
+                                                                                       ~~ ^~~~~~~
+gpio_driver.c(91): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOF:
+                                     ^~~~~~~~~~
+gpio_driver.c(91): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(92): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOF_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./gpio_driver.h(107): note: expanded from macro 'GPIOF_PCLK_DA'
+                                #define GPIOF_PCLK_DA                   ( RCC->AHB1ENR &= ~(1<<5) )
+                                                                                       ~~ ^~~~~~~
+gpio_driver.c(95): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOG:
+                                     ^~~~~~~~~~
+gpio_driver.c(95): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(96): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOG_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./gpio_driver.h(108): note: expanded from macro 'GPIOG_PCLK_DA'
+                                #define GPIOG_PCLK_DA                   ( RCC->AHB1ENR &= ~(1<<6) )
+                                                                                       ~~ ^~~~~~~
+gpio_driver.c(99): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOH:
+                                     ^~~~~~~~~~
+gpio_driver.c(99): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(100): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOH_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./gpio_driver.h(109): note: expanded from macro 'GPIOH_PCLK_DA'
+                                #define GPIOH_PCLK_DA                   ( RCC->AHB1ENR &= ~(1<<7) )
+                                                                                       ~~ ^~~~~~~
+gpio_driver.c(103): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOI:
+                                     ^~~~~~~~~~
+gpio_driver.c(103): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(104): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOI_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./gpio_driver.h(110): note: expanded from macro 'GPIOI_PCLK_DA'
+                                #define GPIOI_PCLK_DA                   ( RCC->AHB1ENR &= ~(1<<8) )
+                                                                                       ~~ ^~~~~~~
+gpio_driver.c(142): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                        temp = pGPIOHandler->GPIO_PinCofg.GPIO_PinMode << (2 * pGPIOHandler->GPIO_PinCofg.GPIO_PinNum);
+                             ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(168): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        SYSCFG->EXTICR[0]|=(pGPIOHandler->GPIO_PinCofg.GPIO_IntPort<<4*pGPIOHandler->GPIO_PinCofg.GPIO_PinNum);
+                                                         ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(171): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        SYSCFG->EXTICR[1]|=(pGPIOHandler->GPIO_PinCofg.GPIO_IntPort<<4*(pGPIOHandler->GPIO_PinCofg.GPIO_PinNum-4));
+                                                         ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(174): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        SYSCFG->EXTICR[2]|=(pGPIOHandler->GPIO_PinCofg.GPIO_IntPort<<4*(pGPIOHandler->GPIO_PinCofg.GPIO_PinNum-8));
+                                                         ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(177): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        SYSCFG->EXTICR[3]|=(pGPIOHandler->GPIO_PinCofg.GPIO_IntPort<<4*(pGPIOHandler->GPIO_PinCofg.GPIO_PinNum-12));
+                                                         ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(188): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                        temp = (pGPIOHandler->GPIO_PinCofg.GPIO_PinSpeed << (2 * pGPIOHandler->GPIO_PinCofg.GPIO_PinNum));
+                             ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(189): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                pGPIOHandler->pGPIOx->OSPEEDR &= ~(0x3 << pGPIOHandler->GPIO_PinCofg.GPIO_PinNum);              
+                                              ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(195): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                                temp = (pGPIOHandler->GPIO_PinCofg.GPIO_PinPUPDctrl << (2 * pGPIOHandler->GPIO_PinCofg.GPIO_PinNum));
+                                     ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(196): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                pGPIOHandler->pGPIOx->PUPDR &= ~(0x3 << pGPIOHandler->GPIO_PinCofg.GPIO_PinNum);        
+                                            ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(203): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                                temp = (pGPIOHandler->GPIO_PinCofg.GPIO_PinOPtype <<  pGPIOHandler->GPIO_PinCofg.GPIO_PinNum);
+                                     ~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(204): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                pGPIOHandler->pGPIOx->OTYPER &= ~(0x3 << pGPIOHandler->GPIO_PinCofg.GPIO_PinNum);       
+                                             ~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(215): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                pGPIOHandler->pGPIOx->AFR[temp1] &= ~(0xF << ( 4* temp2));      
+                                                 ~~ ^~~~~~~~~~~~~~~~~~~~~
+gpio_driver.c(216): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                pGPIOHandler->pGPIOx->AFR[temp1] |= pGPIOHandler->GPIO_PinCofg.GPIO_PinAltFunMode << ( 4* temp2);
+                                                 ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+gpio_driver.c(1): warning: In file included from...
+./gpio_driver.h(26): warning: padding size of 'GPIO_Handler_t' with 1 byte to alignment boundary [-Wpadded]
+typedef struct
+        ^
+gpio_driver.c(248): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOA:
+                                     ^~~~~~~~~~
+gpio_driver.c(248): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(249): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOA_RESET;
+                                        ^~~~~~~~~~~
+./gpio_driver.h(208): note: expanded from macro 'GPIOA_RESET'
+#define GPIOA_RESET       do{ RCC->AHB1RSTR|=(1<<0); RCC->AHB1RSTR&=~(1<<0);}while(0)
+                                                                  ~~^~~~~~~
+gpio_driver.c(252): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOB:
+                                     ^~~~~~~~~~
+gpio_driver.c(252): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(253): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOB_RESET;
+                                        ^~~~~~~~~~~
+./gpio_driver.h(209): note: expanded from macro 'GPIOB_RESET'
+#define GPIOB_RESET       do{ RCC->AHB1RSTR|=(1<<1); RCC->AHB1RSTR&=~(1<<1);}while(0)
+                                                                  ~~^~~~~~~
+gpio_driver.c(256): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOC:
+                                     ^~~~~~~~~~
+gpio_driver.c(256): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(257): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOC_RESET;
+                                        ^~~~~~~~~~~
+./gpio_driver.h(210): note: expanded from macro 'GPIOC_RESET'
+#define GPIOC_RESET       do{ RCC->AHB1RSTR|=(1<<2); RCC->AHB1RSTR&=~(1<<2);}while(0)
+                                                                  ~~^~~~~~~
+gpio_driver.c(260): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOD:
+                                     ^~~~~~~~~~
+gpio_driver.c(260): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(261): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOD_RESET;
+                                        ^~~~~~~~~~~
+./gpio_driver.h(211): note: expanded from macro 'GPIOD_RESET'
+#define GPIOD_RESET       do{ RCC->AHB1RSTR|=(1<<3); RCC->AHB1RSTR&=~(1<<3);}while(0)
+                                                                  ~~^~~~~~~
+gpio_driver.c(264): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOE:
+                                     ^~~~~~~~~~
+gpio_driver.c(264): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(265): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOE_RESET;
+                                        ^~~~~~~~~~~
+./gpio_driver.h(212): note: expanded from macro 'GPIOE_RESET'
+#define GPIOE_RESET       do{ RCC->AHB1RSTR|=(1<<4); RCC->AHB1RSTR&=~(1<<4);}while(0)
+                                                                  ~~^~~~~~~
+gpio_driver.c(268): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOF:
+                                     ^~~~~~~~~~
+gpio_driver.c(268): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(269): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOF_RESET;
+                                        ^~~~~~~~~~~
+./gpio_driver.h(213): note: expanded from macro 'GPIOF_RESET'
+#define GPIOF_RESET       do{ RCC->AHB1RSTR|=(1<<5); RCC->AHB1RSTR&=~(1<<5);}while(0)
+                                                                  ~~^~~~~~~
+gpio_driver.c(272): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOG:
+                                     ^~~~~~~~~~
+gpio_driver.c(272): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(273): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOG_RESET;
+                                        ^~~~~~~~~~~
+./gpio_driver.h(214): note: expanded from macro 'GPIOG_RESET'
+#define GPIOG_RESET       do{ RCC->AHB1RSTR|=(1<<6); RCC->AHB1RSTR&=~(1<<6);}while(0)
+                                                                  ~~^~~~~~~
+gpio_driver.c(276): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOH:
+                                     ^~~~~~~~~~
+gpio_driver.c(276): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(277): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOH_RESET;
+                                        ^~~~~~~~~~~
+./gpio_driver.h(215): note: expanded from macro 'GPIOH_RESET'
+#define GPIOH_RESET       do{ RCC->AHB1RSTR|=(1<<7); RCC->AHB1RSTR&=~(1<<7);}while(0)
+                                                                  ~~^~~~~~~
+gpio_driver.c(280): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)GPIOI:
+                                     ^~~~~~~~~~
+gpio_driver.c(280): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+gpio_driver.c(281): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        GPIOI_RESET;
+                                        ^~~~~~~~~~~
+./gpio_driver.h(216): note: expanded from macro 'GPIOI_RESET'
+#define GPIOI_RESET       do{ RCC->AHB1RSTR|=(1<<8); RCC->AHB1RSTR&=~(1<<8);}while(0)
+                                                                  ~~^~~~~~~
+gpio_driver.c(465): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        *(NVIC_IPR_BASE  +  (N*4))|=((IRQPriority)<<(shift));
+                                  ~~ ~~~~~~~~~~~~~^~~~~~~~~
+gpio_driver.c(496): warning: no newline at end of file [-Wnewline-eof]
+        
+        ^
+61 warnings generated.
+compiling gpio_driver.c...
+".\Objects\MCU1.axf" - 2 Error(s), 61 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil.STM32F4xx_DFP.2.14.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\nisco\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\nisco\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
