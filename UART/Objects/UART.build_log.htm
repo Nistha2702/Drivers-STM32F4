@@ -1,0 +1,366 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.31.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Nistha Kumari, Nirma, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.31.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.14
+Assembler:       Armasm.exe V6.14
+Linker/Locator:  ArmLink.exe V6.14
+Library Manager: ArmAr.exe V6.14
+Hex Converter:   FromElf.exe V6.14
+CPU DLL:         SARMCM3.DLL V5.31.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.4.0
+Dialog DLL:      TCM.DLL V1.46.0.0
+ 
+<h2>Project:</h2>
+C:\Users\nisco\Desktop\Embedded_C\PROJECTS\New folder\0.DRIVERS\UART\UART.uvprojx
+Project File Date:  11/08/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.14', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32f407xx.s...
+compiling system_stm32f4xx.c...
+UART.c(12): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)USART1:
+                                     ^~~~~~~~~~~
+UART.c(12): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(16): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)USART2:
+                                     ^~~~~~~~~~~
+UART.c(16): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(20): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)USART3:
+                                     ^~~~~~~~~~~
+UART.c(20): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(24): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)UART4:
+                                     ^~~~~~~~~~
+UART.c(24): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(28): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)UART5:
+                                     ^~~~~~~~~~
+UART.c(28): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(32): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)USART6:
+                                     ^~~~~~~~~~~
+UART.c(32): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(43): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)USART1:
+                                     ^~~~~~~~~~~
+UART.c(43): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(44): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        USART1_PCLK_DA;
+                                        ^~~~~~~~~~~~~~
+./UART.h(117): note: expanded from macro 'USART1_PCLK_DA'
+                                #define USART1_PCLK_DA                  ( RCC->APB2ENR &= ~(1<<4) )
+                                                                                       ~~ ^~~~~~~
+UART.c(47): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)USART2:
+                                     ^~~~~~~~~~~
+UART.c(47): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(48): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        USART2_PCLK_DA;
+                                        ^~~~~~~~~~~~~~
+./UART.h(121): note: expanded from macro 'USART2_PCLK_DA'
+                                #define USART2_PCLK_DA                  ( RCC->APB1ENR &= ~(1<<17) )
+                                                                                       ~~ ^~~~~~~~
+UART.c(51): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)USART3:
+                                     ^~~~~~~~~~~
+UART.c(51): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(52): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        USART3_PCLK_DA;
+                                        ^~~~~~~~~~~~~~
+./UART.h(122): note: expanded from macro 'USART3_PCLK_DA'
+                                #define USART3_PCLK_DA                  ( RCC->APB1ENR &= ~(1<<18) )
+                                                                                       ~~ ^~~~~~~~
+UART.c(55): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)UART4:
+                                     ^~~~~~~~~~
+UART.c(55): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(56): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        UART4_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./UART.h(119): note: expanded from macro 'UART4_PCLK_DA'
+                                #define UART4_PCLK_DA                   ( RCC->APB1ENR &= ~(1<<19) )
+                                                                                       ~~ ^~~~~~~~
+UART.c(59): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)UART5:
+                                     ^~~~~~~~~~
+UART.c(59): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(60): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        UART5_PCLK_DA;
+                                        ^~~~~~~~~~~~~
+./UART.h(120): note: expanded from macro 'UART5_PCLK_DA'
+                                #define UART5_PCLK_DA                   ( RCC->APB1ENR &= ~(1<<20) )
+                                                                                       ~~ ^~~~~~~~
+UART.c(63): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                                case (int)USART6:
+                                     ^~~~~~~~~~~
+UART.c(63): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(64): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        USART6_PCLK_DA;
+                                        ^~~~~~~~~~~~~~
+./UART.h(118): note: expanded from macro 'USART6_PCLK_DA'
+                                #define USART6_PCLK_DA                  ( RCC->APB2ENR &= ~(1<<5) )
+                                                                                       ~~ ^~~~~~~
+UART.c(93): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        tempreg |= pUSARTHandle->USART_Confg.USART_DataLength << USART_CR1_M ;
+                                                ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+UART.c(97): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                        tempreg |= ( 1 << USART_CR1_PCE);
+                                                                ~~   ~~^~~~~~~~~~~~~~~~
+UART.c(100): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                                tempreg |= ( 1 << USART_CR1_PCE);
+                                                                        ~~   ~~^~~~~~~~~~~~~~~~
+UART.c(101): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                                tempreg |= ( 1 << USART_CR1_PS);
+                                                                        ~~   ~~^~~~~~~~~~~~~~~
+UART.c(111): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                        pUSARTHandle->pUSARTx->CR2 |= pUSARTHandle->USART_Confg.USART_NoOfStopBits << USART_CR2_STOP;
+                                                                   ~~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+UART.c(120): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                pUSARTHandle->pUSARTx->CR3 |= ( 1 << USART_CR3_CTSE);
+                                                                           ~~   ~~^~~~~~~~~~~~~~~~~
+UART.c(123): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                pUSARTHandle->pUSARTx->CR3 |= ( 1 << USART_CR3_RTSE);
+                                                                           ~~   ~~^~~~~~~~~~~~~~~~~
+UART.c(126): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                pUSARTHandle->pUSARTx->CR3 |= ( 1 << USART_CR3_RTSE);
+                                                                           ~~   ~~^~~~~~~~~~~~~~~~~
+UART.c(127): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                                                pUSARTHandle->pUSARTx->CR3 |= ( 1 << USART_CR3_CTSE);
+                                                                           ~~   ~~^~~~~~~~~~~~~~~~~
+UART.c(93): warning: shift count >= width of type [-Wshift-count-overflow]
+                                        tempreg |= pUSARTHandle->USART_Confg.USART_DataLength << USART_CR1_M ;
+                                                                                              ^  ~~~~~~~~~~~
+UART.c(97): warning: shift count >= width of type [-Wshift-count-overflow]
+                                                        tempreg |= ( 1 << USART_CR1_PCE);
+                                                                       ^  ~~~~~~~~~~~~~
+UART.c(100): warning: shift count >= width of type [-Wshift-count-overflow]
+                                                                tempreg |= ( 1 << USART_CR1_PCE);
+                                                                               ^  ~~~~~~~~~~~~~
+UART.c(101): warning: shift count >= width of type [-Wshift-count-overflow]
+                                                                tempreg |= ( 1 << USART_CR1_PS);
+                                                                               ^  ~~~~~~~~~~~~
+UART.c(111): warning: shift count >= width of type [-Wshift-count-overflow]
+                                        pUSARTHandle->pUSARTx->CR2 |= pUSARTHandle->USART_Confg.USART_NoOfStopBits << USART_CR2_STOP;
+                                                                                                                   ^  ~~~~~~~~~~~~~~
+UART.c(120): warning: shift count >= width of type [-Wshift-count-overflow]
+                                                pUSARTHandle->pUSARTx->CR3 |= ( 1 << USART_CR3_CTSE);
+                                                                                  ^  ~~~~~~~~~~~~~~
+UART.c(123): warning: shift count >= width of type [-Wshift-count-overflow]
+                                                pUSARTHandle->pUSARTx->CR3 |= ( 1 << USART_CR3_RTSE);
+                                                                                  ^  ~~~~~~~~~~~~~~
+UART.c(126): warning: shift count >= width of type [-Wshift-count-overflow]
+                                                pUSARTHandle->pUSARTx->CR3 |= ( 1 << USART_CR3_RTSE);
+                                                                                  ^  ~~~~~~~~~~~~~~
+UART.c(127): warning: shift count >= width of type [-Wshift-count-overflow]
+                                                pUSARTHandle->pUSARTx->CR3 |= ( 1 << USART_CR3_CTSE);
+                                                                                  ^  ~~~~~~~~~~~~~~
+UART.c(1): warning: In file included from...
+./UART.h(22): warning: padding struct 'USART_Confg_t' with 3 bytes to align 'USART_BaudRate' [-Wpadded]
+        uint32_t USART_BaudRate;                                                                                                                                                        //@USART_Baud_Rate
+                 ^
+UART.c(161): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                        case (int)USART1:
+                             ^~~~~~~~~~~
+UART.c(161): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(162): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        USART1_RESET;
+                        ^~~~~~~~~~~~
+./UART.h(129): note: expanded from macro 'USART1_RESET'
+                                #define USART1_RESET       do{ RCC->APB2RSTR|=(1<<4); RCC->APB2RSTR&=~(1<<4);}while(0) 
+                                                                                                   ~~^~~~~~~
+UART.c(165): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                        case (int)USART2:
+                             ^~~~~~~~~~~
+UART.c(165): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(166): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        USART2_RESET;   
+                        ^~~~~~~~~~~~
+./UART.h(131): note: expanded from macro 'USART2_RESET'
+                                #define USART2_RESET       do{ RCC->APB1RSTR|=(1<<17); RCC->APB1RSTR&=~(1<<17);}while(0)
+                                                                                                    ~~^~~~~~~~
+UART.c(169): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                        case (int)USART3:
+                             ^~~~~~~~~~~
+UART.c(169): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(170): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        USART3_RESET;   
+                        ^~~~~~~~~~~~
+./UART.h(132): note: expanded from macro 'USART3_RESET'
+                                #define USART3_RESET       do{ RCC->APB1RSTR|=(1<<18); RCC->APB1RSTR&=~(1<<18);}while(0)
+                                                                                                    ~~^~~~~~~~
+UART.c(173): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                        case (int)UART4:
+                             ^~~~~~~~~~
+UART.c(173): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(174): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        UART4_RESET;    
+                        ^~~~~~~~~~~
+./UART.h(133): note: expanded from macro 'UART4_RESET'
+                                #define UART4_RESET          do{ RCC->APB1RSTR|=(1<<19); RCC->APB1RSTR&=~(1<<19);}while(0)
+                                                                                                      ~~^~~~~~~~
+UART.c(177): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                        case (int)UART5:
+                             ^~~~~~~~~~
+UART.c(177): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(178): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        UART5_RESET;    
+                        ^~~~~~~~~~~
+./UART.h(134): note: expanded from macro 'UART5_RESET'
+                                #define UART5_RESET        do{ RCC->APB1RSTR|=(1<<20); RCC->APB1RSTR&=~(1<<20);}while(0)
+                                                                                                    ~~^~~~~~~~
+UART.c(181): warning: expression is not an integer constant expression; folding it to a constant is a GNU extension [-Wgnu-folding-constant]
+                        case (int)USART6:
+                             ^~~~~~~~~~~
+UART.c(181): note: cast that performs the conversions of a reinterpret_cast is not allowed in a constant expression
+UART.c(182): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        USART6_RESET;   
+                        ^~~~~~~~~~~~
+./UART.h(130): note: expanded from macro 'USART6_RESET'
+                                #define USART6_RESET       do{ RCC->APB2RSTR|=(1<<5); RCC->APB2RSTR&=~(1<<5);}while(0)
+                                                                                                   ~~^~~~~~~
+UART.c(198): warning: cast from 'uint8_t *' (aka 'unsigned char *') to 'uint16_t *' (aka 'unsigned short *') increases required alignment from 1 to 2 [-Wcast-align]
+                        pdata = (uint16_t*) pTxBuffer;
+                                ^~~~~~~~~~~~~~~~~~~~~
+UART.c(226): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+        while( ! USART_GetFlagStatus(pUSARTHandle->pUSARTx,USART_FLAG_TC));
+                 ~~~~~~~~~~~~~~~~~~~                       ^~~~~~~~~~~~~
+./UART.h(141): note: expanded from macro 'USART_FLAG_TC'
+#define USART_FLAG_TC           ( 1 << USART_SR_TC   )
+                                  ~~^~~~~~~~~~~~~~
+UART.c(226): warning: shift count >= width of type [-Wshift-count-overflow]
+        while( ! USART_GetFlagStatus(pUSARTHandle->pUSARTx,USART_FLAG_TC));
+                                                           ^~~~~~~~~~~~~
+./UART.h(141): note: expanded from macro 'USART_FLAG_TC'
+#define USART_FLAG_TC           ( 1 << USART_SR_TC   )
+                                    ^  ~~~~~~~~~~~
+UART.c(252): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                while(!USART_GetFlagStatus(pUSARTHandle->pUSARTx,USART_FLAG_RXNE))
+                       ~~~~~~~~~~~~~~~~~~~                       ^~~~~~~~~~~~~~~
+./UART.h(140): note: expanded from macro 'USART_FLAG_RXNE'
+#define USART_FLAG_RXNE         ( 1 << USART_SR_RXNE )
+                                  ~~^~~~~~~~~~~~~~~~
+UART.c(265): warning: cast from 'uint8_t *' (aka 'unsigned char *') to 'uint16_t *' (aka 'unsigned short *') increases required alignment from 1 to 2 [-Wcast-align]
+                                *((uint16_t*) pRxBuffer) = (pUSARTHandle->pUSARTx->DR  & (uint16_t)0x01FF);
+                                  ^~~~~~~~~~~~~~~~~~~~~
+UART.c(252): warning: shift count >= width of type [-Wshift-count-overflow]
+                while(!USART_GetFlagStatus(pUSARTHandle->pUSARTx,USART_FLAG_RXNE))
+                                                                 ^~~~~~~~~~~~~~~
+./UART.h(140): note: expanded from macro 'USART_FLAG_RXNE'
+#define USART_FLAG_RXNE         ( 1 << USART_SR_RXNE )
+                                    ^  ~~~~~~~~~~~~~
+UART.c(326): warning: unused parameter 'pUSARTHandle' [-Wunused-parameter]
+uint8_t USART_SendDataIT(USART_Handle_t *pUSARTHandle,uint8_t *pTxBuffer, uint32_t Len)
+                                         ^
+UART.c(326): warning: unused parameter 'pTxBuffer' [-Wunused-parameter]
+uint8_t USART_SendDataIT(USART_Handle_t *pUSARTHandle,uint8_t *pTxBuffer, uint32_t Len)
+                                                               ^
+UART.c(326): warning: unused parameter 'Len' [-Wunused-parameter]
+uint8_t USART_SendDataIT(USART_Handle_t *pUSARTHandle,uint8_t *pTxBuffer, uint32_t Len)
+                                                                                   ^
+UART.c(328): warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+UART.c(347): warning: unused parameter 'pUSARTHandle' [-Wunused-parameter]
+uint8_t USART_ReceiveDataIT(USART_Handle_t *pUSARTHandle, uint8_t *pRxBuffer, uint32_t Len)
+                                            ^
+UART.c(347): warning: unused parameter 'pRxBuffer' [-Wunused-parameter]
+uint8_t USART_ReceiveDataIT(USART_Handle_t *pUSARTHandle, uint8_t *pRxBuffer, uint32_t Len)
+                                                                   ^
+UART.c(347): warning: unused parameter 'Len' [-Wunused-parameter]
+uint8_t USART_ReceiveDataIT(USART_Handle_t *pUSARTHandle, uint8_t *pRxBuffer, uint32_t Len)
+                                                                                       ^
+UART.c(349): warning: non-void function does not return a value [-Wreturn-type]
+}
+^
+UART.c(371): warning: unused parameter 'IRQnumber' [-Wunused-parameter]
+void USART_IRQInterruptConfg(uint8_t IRQnumber, uint8_t ENorDA)
+                                     ^
+UART.c(371): warning: unused parameter 'ENorDA' [-Wunused-parameter]
+void USART_IRQInterruptConfg(uint8_t IRQnumber, uint8_t ENorDA)
+                                                        ^
+UART.c(392): warning: unused parameter 'IRQPriority' [-Wunused-parameter]
+void USART_IRQPriorityConfg(uint32_t IRQPriority, uint8_t IRQnumber)
+                                     ^
+UART.c(392): warning: unused parameter 'IRQnumber' [-Wunused-parameter]
+void USART_IRQPriorityConfg(uint32_t IRQPriority, uint8_t IRQnumber)
+                                                          ^
+UART.c(415): warning: unused parameter 'pUSARTHandle' [-Wunused-parameter]
+void USART_IRQHandler(USART_Handle_t *pUSARTHandle)
+                                      ^
+UART.c(441): warning: unused parameter 'pUSARTx' [-Wunused-parameter]
+void USART_PeripheralControl(USART_TypeDef *pUSARTx, uint8_t EnOrDi)
+                                            ^
+UART.c(441): warning: unused parameter 'EnOrDi' [-Wunused-parameter]
+void USART_PeripheralControl(USART_TypeDef *pUSARTx, uint8_t EnOrDi)
+                                                             ^
+UART.c(492): warning: unused parameter 'pUSARTx' [-Wunused-parameter]
+void USART_ClearFlag(USART_TypeDef *pUSARTx, uint16_t StatusFlagName)
+                                    ^
+UART.c(492): warning: unused parameter 'StatusFlagName' [-Wunused-parameter]
+void USART_ClearFlag(USART_TypeDef *pUSARTx, uint16_t StatusFlagName)
+                                                      ^
+UART.c(524): warning: no newline at end of file [-Wnewline-eof]
+        
+        ^
+UART.c(519): warning: unused parameter 'pUSARTHandle' [-Wunused-parameter]
+void USART_ApplicationEventCallback(USART_Handle_t *pUSARTHandle,uint8_t AppEv)
+                                                    ^
+UART.c(519): warning: unused parameter 'AppEv' [-Wunused-parameter]
+void USART_ApplicationEventCallback(USART_Handle_t *pUSARTHandle,uint8_t AppEv)
+                                                                         ^
+75 warnings generated.
+compiling UART.c...
+linking...
+.\Objects\UART.axf: Error: L6218E: Undefined symbol main (referred from __rtentry2.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+".\Objects\UART.axf" - 1 Error(s), 75 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.14.0.pack
+                Keil.STM32F4xx_DFP.2.14.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\nisco\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\nisco\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
